@@ -69,7 +69,7 @@ function App() {
     setUserInput("");
   };
 
-  let boldVanga = <span className="text-8xl font-bold">Vanga</span>;
+  let boldVanga = <span className="text-8xl font-bold sm:text-[12rem]">Vanga</span>;
 
   return (
     <>
@@ -84,14 +84,14 @@ function App() {
        text-white text-1xl
         "
       >
-        <span className="bbg-yellow-500 w-full h-auto mt-20 flex flex-col justify-center text-center text-4xl">
-          Welcome to {boldVanga}
+        <span className="bbg-yellow-500 w-full h-auto mt-20 flex flex-col justify-center items-center text-center text-4xl">
+          <span className="translate-0 sm:translate-y-10">Welcome to</span> {boldVanga}
         </span>
-          <span className="bbg-red-500 w-8/12 h-auto text-neutral-400 text-center">
+          <span className="bbg-red-500 w-8/12 h-auto text-neutral-400 text-center sm:text-2xl md:text-4xl ">
           try to guess number that is "vanga" has in her mind, if u manage to
           guess it, u will surely be next "vanga".
           </span>
-        <span className="bbg-green-500 w-8/12 h-auto text-neutral-400 text-center">
+        <span className="bbg-green-500 w-8/12 h-auto text-neutral-400 text-center sm:text-1xl md:text-2xl">
             note: randomly generated number changes after every guess u make.
           </span>
         <div className="bbg-blue-500 w-full h-1/5 flex flex-col items-center justify-center">
