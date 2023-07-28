@@ -124,12 +124,12 @@ function App() {
           </button>
         </div>
         <footer className="w-full h-[20%] bg-neutral-900 flex items-center justify-center">
-          <span className="text-gray-500">designed by <a href="#" className="text-white">@dsakhuria</a></span>
+          <span className="text-gray-500">designed by <a href="https://www.instagram.com/dachi.s_/" className="text-white">@dsakhuria</a></span>
         </footer>
       </div>
       <ToastContainer
         position="top-center"
-        autoClose={5000}
+        autoClose={2500}
         hideProgressBar={false}
         newestOnTop={false}
         closeOnClick
@@ -138,7 +138,7 @@ function App() {
         draggable
         pauseOnHover
         theme="dark"
-      />
+        />
     </>
   );
 }
